@@ -1,0 +1,27 @@
+== Description
+This bond plugin generates completions for gems that have been documented with yard.
+
+== Install
+Install the gem with:
+
+    sudo gem install bond-yard
+
+== Usage
+
+Add to your ~/.irbrc
+
+    require 'bond/yard'
+
+In your .irbrc or in the console, load completions for gems that have been documented with yard:
+
+    >> Bond.load_yard_gems 'bond'
+    Bond: Building/loading bond's .yardoc database ...
+    => ['bond']
+    >> Bond.start :[TAB]
+    :bare  :debug  :default_mission  :default_search  :eval_binding :eval_debug  :gems  :readline_plugin
+
+For more examples, {see
+here}[http://tagaholic.me/2010/05/19/documentation-generated-irb-autocompletions-with-bond-and-yard.html#yard_based_irb_autocompletions].
+
+== Todo
+* Generate method autocompletions for any arguments based on yard docs

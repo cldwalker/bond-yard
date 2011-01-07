@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = "gabriel.horner@gmail.com"
   s.homepage    = "http://github.com/cldwalker/bond-yard"
   s.summary = "Generate completions from yard docs"
-  s.description = ""
+  s.description = "This bond plugin generates completions for gems that have been documented with yard."
   s.required_rubygems_version = ">= 1.3.6"
   s.rubyforge_project = 'tagaholic'
   s.has_rdoc = 'yard'
