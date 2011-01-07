@@ -10,6 +10,7 @@ module Bond
   # generates completions for methods that take a hash of options and have been documented with @option.
   module Yard
     extend self
+    VERSION = '0.1.0'
 
     # Loads completions for yard gem(s)
     def load_yard_gems(*gems)
