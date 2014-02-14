@@ -4,7 +4,7 @@ This bond plugin generates completions for gems that have been documented with y
 == Install
 Install the gem with:
 
-    sudo gem install bond-yard
+    gem install bond-yard
 
 == Usage
 
@@ -25,3 +25,6 @@ here}[http://tagaholic.me/2010/05/19/documentation-generated-irb-autocompletions
 
 == Todo
 * Generate method autocompletions for any arguments based on yard docs
+
+== Links
+* {yard-bond}[https://github.com/postmodern/yard-bond] - Alternative implementation which avoids loading the yardoc cache at runtime
